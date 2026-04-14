@@ -1,0 +1,17 @@
+{
+  "name": "dashboard-capture",
+  "version": "1.0.0",
+  "description": "Captures dashboard visualizations and sends them to Telegram",
+  "main": "capture-and-send.js",
+  "scripts": {
+    "capture": "node capture-and-send.js",
+    "capture:filtered": "node capture-filtered.js",
+    "bot": "node bot-listener.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "form-data": "^4.0.0",
+    "node-telegram-bot-api": "^0.67.0",
+    "puppeteer": "^22.0.0"
+  }
+}
